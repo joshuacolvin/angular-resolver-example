@@ -1,3 +1,20 @@
-<p>
-  products works!
-</p>
+<div class="products">
+  <h1 class="mb-3 bd-text-purple-bright">Products</h1>
+  <div class="card-group">
+    <div *ngFor="let product of products" class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ product.name }}
+          <span class="text-muted">{{ product.price | currency }}</span>
+        </h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          accumsan dolor vel neque lobortis condimentum. Nunc ut diam bibendum
+          sem porttitor euismod eu quis elit. Praesent condimentum fermentum
+          erat, molestie suscipit elit vulputate sit amet.
+        </p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
