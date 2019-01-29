@@ -3,17 +3,20 @@
     {
       "id": 1,
       "name": "MacBook Pro",
-      "price": 2000
+      "price": 2000,
+      "description": "Brand new MacBook Pro"
     },
     {
       "id": 2,
       "name": "iPad",
-      "price": 400
+      "price": 400,
+      "description": "iPad pro w/pencil"
     },
     {
       "id": 3,
       "name": "Air Pods",
-      "price": 150
+      "price": 150,
+      "description": "Air Pods. Brand new, in box"
     }
   ]
 }
